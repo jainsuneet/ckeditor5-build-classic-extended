@@ -12,7 +12,7 @@ export default class FullScreen extends Plugin {
 			const view = new ButtonView( locale );
 			let etat = 0; // si 0 position normale
 			view.set( {
-				label: 'Plein écran',
+				label: 'Full Screen',
 				icon: ImageFullBig,
 				tooltip: true
 			} );
@@ -23,7 +23,7 @@ export default class FullScreen extends Plugin {
 					editor.sourceElement.nextElementSibling.removeAttribute( 'id' );
 					document.body.removeAttribute( 'id' );
 					view.set( {
-						label: 'Plein écran',
+						label: 'Full Screen',
 						icon: ImageFullBig,
 						tooltip: true
 					} );
@@ -32,7 +32,7 @@ export default class FullScreen extends Plugin {
 					editor.sourceElement.nextElementSibling.setAttribute( 'id', 'fullscreeneditor' );
 					document.body.setAttribute( 'id', 'fullscreenoverlay' );
 					view.set( {
-						label: 'Mode Normal',
+						label: 'Normal Mode',
 						icon: ImageFullCancel,
 						tooltip: true
 					} );
