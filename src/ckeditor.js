@@ -33,7 +33,7 @@ import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter';
 import Code from '@ckeditor/ckeditor5-basic-styles/src/code';
 import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock';
-import ExportToPDF from '@ckeditor/ckeditor5-export-pdf/src/exportpdf';
+import ExportToPDF from 'ckeditor5-export-pdf/src/exportpdf';
 import FontBackgroundColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolor';
 import FontColor from '@ckeditor/ckeditor5-font/src/fontcolor';
 import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily';
