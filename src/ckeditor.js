@@ -18,6 +18,7 @@ import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption';
 import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle';
 import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar';
 import ImageUpload from '@ckeditor/ckeditor5-image/src/imageupload';
+import LinkImage from '@ckeditor/ckeditor5-link/src/linkimage';
 import Indent from '@ckeditor/ckeditor5-indent/src/indent';
 import Link from '@ckeditor/ckeditor5-link/src/link';
 import List from '@ckeditor/ckeditor5-list/src/list';
@@ -88,6 +89,7 @@ ClassicEditor.builtinPlugins = [
 	ImageStyle,
 	ImageToolbar,
 	ImageUpload,
+	LinkImage,
 	Indent,
 	IndentBlock,
 	Italic,
@@ -151,7 +153,9 @@ ClassicEditor.defaultConfig = {
 		  'imageStyle:alignCenter',
 		  'imageStyle:alignRight',
 		  '|',
-		  'imageTextAlternative'
+		  'imageTextAlternative',
+		  '|',
+		  'linkImage'
 		],
 		styles: [
 		  'full',
