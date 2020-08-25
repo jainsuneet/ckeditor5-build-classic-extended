@@ -31,6 +31,7 @@ import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformatio
 
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter';
+import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter';
 import Code from '@ckeditor/ckeditor5-basic-styles/src/code';
 import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock';
 import ExportToPDF from 'ckeditor5-export-pdf/src/exportpdf';
@@ -70,6 +71,7 @@ ClassicEditor.builtinPlugins = [
 	Alignment,
 	Autoformat,
 	Base64UploadAdapter,
+	SimpleUploadAdapter,
 	BlockQuote,
 	Bold,
 	Code,
